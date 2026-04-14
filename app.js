@@ -23,11 +23,7 @@ export function restar(a, b) {
 }
 
 export function healthCheck() {
-  return {
-    status: "ok",
-    timestamp: new Date().toISOString(),
-    servicio: "streamFlOW",
-    version: "1.0.0"
-  };
+  return null;
 }
+
 
