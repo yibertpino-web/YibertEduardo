@@ -9,7 +9,7 @@ function ejecutarPruebas() {
     console.log("Test 1 pasado: funcion saludar en CodeRider es correcta");
     pasadas++;
   } else {
-    console.log("Test 1 Fallido: ", r1);
+    console.log("Test 1 fallido:", r1);
     fallidas++;
   }
 
@@ -28,6 +28,20 @@ function ejecutarPruebas() {
     pasadas++;
   } else {
     console.log("Test 3 fallido: se esperaba 15, se obtuvo", resultadoSuma);
+    fallidas++;
+  }
+
+  function healthCheck() {
+    return { status: "ok" };
+  }
+
+  const health = healthCheck();
+
+  if (health.status === "ok") {
+    console.log("Test 4 pasado: healthCheck funciona correctamente");
+    pasadas++;
+  } else {
+    console.log("Test 4 fallido:", health);
     fallidas++;
   }
 

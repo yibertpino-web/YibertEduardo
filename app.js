@@ -3,26 +3,31 @@ export function saludar(nombre) {
 }
 
 export function despedir(nombre) {
-  return `Hasta pronto ${nombre}! Yibert`;
+  return `Hasta pronto, ${nombre}! - Yibert`;
 }
 
-export function estadosistema() {
+export function estadoSistema() {
   return {
     estado: "activo",
     version: "1.0.0",
     mensaje: "Sistema Coderider funcionando correctamente"
   };
 }
+
 export function suma(a, b) {
   return a + b;
 }
-function restar(a, b) {
+
+export function restar(a, b) {
   return a - b;
 }
 
-// Test
-if (restar(5, 3) === 2) {
-  console.log("✅ Test correcto");
-} else {
-  console.log("❌ Error en la función");
+export function healthCheck() {
+  return {
+    status: "ok",
+    timestamp: new Date().toISOString(),
+    servicio: "streamFlOW",
+    version: "1.0.0"
+  };
 }
+
