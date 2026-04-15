@@ -30,4 +30,16 @@ export function healthCheck() {
     version: "1.0.0"
   };
 }
+function factorial(n) {
+  if (n < 0) return null;
+  if (n === 0) return 1;
+  return n * factorial(n - 1);
+}
+
+module.exports = factorial;
+const factorial = require('./app');
+
+console.log(factorial(5)); // 120
+console.log(factorial(0)); // 1
+
 
