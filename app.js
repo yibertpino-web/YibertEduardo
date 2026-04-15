@@ -23,6 +23,7 @@ export function restar(a, b) {
 }
 
 export function healthCheck() {
+<<<<<<< HEAD
   return {
     status: "ok",
     timestamp: new Date().toISOString(),
@@ -57,5 +58,13 @@ const factorial = require("./app");
 
 console.log(factorial(5)); // 120
 console.log(factorial(0)); // 1
+=======
+  return null;
+}
+release/1.1.0
+ HEAD
+código de main
 
+código de release
+release/1.1.0
 
