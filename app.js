@@ -23,6 +23,7 @@ export function restar(a, b) {
 }
 
 export function healthCheck() {
+<<<<<<< HEAD
   return {
     status: "ok",
     timestamp: new Date().toISOString(),
@@ -55,7 +56,20 @@ function factorial(n) {
 module.exports = factorial;
 const factorial = require("./app");
 
-console.log(factorial(5)); // 120
-console.log(factorial(0)); // 1
+const express = require("express");
+const factorial = require("./factorial");
 
+const app = express();
 
+app.get("/factorial/:num", (req, res) => {
+  const num = parseInt(req.params.num);
+
+  if (num < 0) {
+    return res.status(400).json({ error: "Número inválido" });
+  }
+
+  const result = factorial(num);
+  res.json({ result });
+});
+
+module.exports = app;
