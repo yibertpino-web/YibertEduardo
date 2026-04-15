@@ -1,40 +1,12 @@
-# 🚀 <Nombre del Proyecto>
+<div align="center">
+  <img src="https://via.placeholder.com/800x200?text=YIBERTPINO+WEB" alt="Banner" width="100%" />
 
-> Breve descripción clara y potente (1–2 líneas).
-> Ej: API REST para gestionar usuarios con autenticación JWT.
+  # 🌐 yibertpino-web
+  
+  _Una solución elegante para la gestión de lógica empresarial en Node.js_
 
----
+  [![](https://img.shields.io/badge/Status-En%20Desarrollo-green?style=for-the-badge)]()
+  [![](https://img.shields.io/badge/Version-1.1.0-blue?style=for-the-badge)]()
+  [![](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)]()
+</div>
 
-## 📌 Tabla de Contenido
-
-- [Descripción](#-descripción)
-- [Demo](#-demo)
-- [Tecnologías](#-tecnologías)
-- [Instalación](#-instalación)
-- [Uso](#-uso)
-- [API / Endpoints](#-api--endpoints)
-- [Estructura](#-estructura-del-proyecto)
-- [Contribución](#-contribución)
-- [Licencia](#-licencia)
-
----
-
-## 📖 Descripción
-
-Explica:
-- Qué hace tu proyecto
-- Qué problema resuelve
-- Para quién es
-
----
-
-## 🎥 Demo
-
-Puedes agregar:
-
-- GIFs
-- Screenshots
-- Link en vivo
-
-```txt
-https://tu-demo.com
