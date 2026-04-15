@@ -41,5 +41,21 @@ const factorial = require('./app');
 
 console.log(factorial(5)); // 120
 console.log(factorial(0)); // 1
+function factorial(n) {
+  if (n < 0) return "No válido";
+  if (n === 0) return 1;
+
+  let resultado = 1;
+  for (let i = 1; i <= n; i++) {
+    resultado *= i;
+  }
+  return resultado;
+}
+
+module.exports = factorial;
+const factorial = require("./app");
+
+console.log(factorial(5)); // 120
+console.log(factorial(0)); // 1
 
 
