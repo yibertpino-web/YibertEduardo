@@ -1,10 +1,1 @@
-"name": "flowYibert",
-"version": "1.0."
-"type": "module",
-"descripcion":" Primera aplicacion Yibert Flow
-"Scrip": {
-"start": "node src/app.js",
-"test": "node test/app.test.js":
-}
-
-
+nueva funcionalidad
